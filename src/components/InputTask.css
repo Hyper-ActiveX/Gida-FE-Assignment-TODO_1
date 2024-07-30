@@ -1,0 +1,49 @@
+.todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    gap: 10px;
+}
+
+.todo-item span.completed {
+    text-decoration: line-through;
+}
+.todo-item .completed-icon-up1 {
+    opacity: 0.5;
+}
+.todo-item .completed-icon-down1 {
+    opacity: 0.2;
+}
+.todo-item input {
+    margin-right: 10px;
+}
+
+.todo-item span {
+    flex-grow: 1;
+}
+.inputText{
+    width: 100%;
+    outline: none;
+    border: none;
+}
+.todo-item .fa-icon {
+    margin-right: 10px;
+    cursor: pointer;
+}
+.delete{
+    opacity: 0.5;
+}
+.todo-item button {
+    background-color: #6200ee;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.todo-item button:hover {
+    background-color: #3700b3;
+}

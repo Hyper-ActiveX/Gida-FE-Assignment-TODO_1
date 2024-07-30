@@ -1,0 +1,133 @@
+.todo-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.welcomeDiv {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+  margin: 0 auto;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  max-width: 800px;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 10px;
+}
+
+.todo-head {
+  height: 50px;
+  font-size: 30px;
+  font-weight: 800;
+  display: flex;
+  left: -20%;
+  align-items: center;
+}
+
+.listItems {
+  display: flex;
+  flex-direction: column;
+  padding-left: 24px;
+}
+
+button {
+  background-color: #6200ee;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3700b3;
+}
+
+.signup {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 40px;
+  margin-top: 10px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.signup p {
+  margin: 0 0 10px 0;
+  max-width: 200px;
+}
+
+.signup button {
+  background-color: #6200ea;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.signup button:hover {
+  background-color: #3700b3;
+}
+
+.add-and-pagination {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pagination {
+  background-color: (126, 126, 126, 1);
+}
+
+.addTodo {
+  color: rgba(0, 0, 0, 1);
+  background-color: white;
+  font-size: larger;
+}
+.addTodo:hover {
+  background-color: rgb(211, 208, 208);
+}
+@media (max-width: 720px) {
+  .todo-list {
+    padding: 10px;
+  }
+
+  .todo-head {
+    padding-left: 10px;
+  }
+
+  .signup {
+    display: none;
+  }
+}
